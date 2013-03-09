@@ -1,4 +1,4 @@
-from briefcase.core.accounts.models import Profile
 from django.contrib import admin
+from briefcase.apps.briefcase.core.accounts.models import Profile
 
 admin.site.register(Profile)

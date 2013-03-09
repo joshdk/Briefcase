@@ -1,5 +1,5 @@
 from django.db import models
-from briefcase.core.models import Document
+from briefcase.apps.briefcase.core.models import Document
 
 class Spreadsheet(Document):
     data = models.TextField(blank=True)

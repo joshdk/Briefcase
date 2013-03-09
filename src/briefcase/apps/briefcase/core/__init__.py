@@ -1,4 +1,4 @@
-from briefcase.core.register import module
+from register import module
 
 def autodiscover():
     """

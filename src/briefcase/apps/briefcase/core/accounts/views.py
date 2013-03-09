@@ -4,8 +4,8 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.contrib.auth import logout
 
-from briefcase.core.accounts.forms import *
-from briefcase.core import module
+from briefcase.apps.briefcase.core.accounts.forms import *
+from briefcase.apps.briefcase.core import module
 
 @login_required
 def home(request):
@@ -38,7 +38,7 @@ def register(request):
 
 def logout_user(request):
     logout(request)
-    return redirect('briefcase.core.accounts.views.home')
+    return redirect('briefcase.apps.briefcase.core.accounts.views.home')
 
 
 
