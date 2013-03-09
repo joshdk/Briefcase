@@ -1,10 +1,8 @@
 Briefacse
 =========
 
-Briefcase is an online document editor. Meant to create usable programs to help people edit and distribute documents.
+Briefcase is an open-source, online document editor. Meant to create usable programs to help people edit and distribute documents.
 
-Briefcase is under the BSD licence, full text found at the end of this file
-Briefcase is an open source online document editor
 The backend is written in Django
 Briefcase uses the canvas element and requires the use of modern browsers
 
